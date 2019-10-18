@@ -147,6 +147,6 @@ p{
 }
 
 .bottom-paragraph {
-    display: block;
+    display: inline;
     margin: auto;
 }
