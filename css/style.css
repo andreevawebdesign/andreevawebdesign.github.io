@@ -143,5 +143,10 @@ span {
 }
 
 p{
-    background-color: azure;
+    background-color: blueviolet;
+}
+
+.bottom-paragraph {
+    display: inline-block;
+    margin: auto;
 }
