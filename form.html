@@ -9,21 +9,29 @@
 <body>
 
     <form action="#" method="post">
-        <label for="login" class="lbl">Логин: </label>
-        <input type="text" id="login" class="inpt">
+        <div class="form-group">
+            <label for="login" class="lbl-header">Логин: </label>
+            <input type="text" id="login" class="inpt">
+        </div>
 
-        <label for="pswd" class="lbl">Пароль: </label>
-        <input type="password" id="pswd" class="inpt">
-        
-        <label>Пол:</label>
-        <label for="M">Муж </label> <input type="radio" id="M" checked name="sex">
-        <label for="W">Жен </label> <input type="radio" id="W" name="sex">
-       
-       <label>Хобби:</label>
-        <label for="football">Футбол </label> <input type="checkbox" id="football" name="hobby" >
-        <label for="knitting">Вязание </label> <input type="checkbox" id="knitting" checked name="hobby">
-        <label for="reading">Чтение </label> <input type="checkbox" id="reading" name="hobby">
-    
+        <div class="form-group">
+            <label for="pswd" class="lbl-header">Пароль: </label>
+            <input type="password" id="pswd" class="inpt">
+        </div>
+
+
+        <label class="lbl-header">Пол:</label>
+        <div class="form-group">
+            <label for="M" class="lbl">Муж </label> <input type="radio" id="M" checked name="sex">
+            <label for="W" class="lbl">Жен </label> <input type="radio" id="W" name="sex">
+        </div>
+
+        <label class="lbl-header">Хобби:</label>
+        <div class="form-group">
+            <label for="football" class="lbl">Футбол </label> <input type="checkbox" id="football" name="hobby">
+            <label for="knitting" class="lbl">Вязание </label> <input type="checkbox" id="knitting" checked name="hobby">
+            <label for="reading" class="lbl">Чтение </label> <input type="checkbox" id="reading" name="hobby">
+        </div>
     </form>
 
 </body>
