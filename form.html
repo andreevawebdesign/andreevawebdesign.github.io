@@ -70,6 +70,35 @@
             background-color: #086922;
         }
 
+        @media (max-width: 600px) {
+            body {
+                background-color: #9f7373;
+            }
+
+            .field-add {
+                display: none;
+            }
+
+            .lbl-header {
+                color: darkblue;
+            }
+
+            input [type="text"],
+            input [type="password"],
+            input [type="text"],
+            textarea {
+                background-color: #ffba00;
+            }
+
+@media (min-width: 800px) {
+body {
+background-color: aqua;
+}
+.form-html5 {
+    box-shadow: 0 0 30px 10px #d8b912;
+    }
+}
+
     </style>
 </head>
 
@@ -89,7 +118,7 @@
                 <input type="password" id="pswd" class="inpt">
             </div>
         </fieldset>
-        <fieldset>
+        <fieldset class="field-add">
             <legend>Еще данныe</legend>
             <div class="form-group">
                 <label for="range" class="lbl-header">Возраст: </label>
