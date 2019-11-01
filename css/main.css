@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "serif", ;
+    src: url("../fonts/9930.ttf");
+}   
+
+.header-bg {
+    background-image: url("../img/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 500px;
+}
+
+.my-name-is {
+    font-family: "Oranienbaum", serif;
+    font-size: 23px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 55px;
+}
+
+.my-name {
+    font-style: normal;
+    font-family: "Oranienbaum", serif;
+    font-size: 20px;
+    line-height: 20px;
+
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 55px;
+}
+
+.main-menu {
+    position: fixed;
+}
+
+.hello {
+    font-style: none;
+    font-family: "Oranienbaum", serif;
+
+}
+
+.navbar-collapse {
+    word-spacing: 3px;
+    padding-right: 1px;
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.first-info {
+    text-align: left;
+}
+
+.titles {
+    text-align: center;
+    
+}
+
+.project {
+    width: 100%;
+}
+
+.my-advantages {
+    text-decoration: none;
+}
+
+.img-responsive {
+    font-size-adjust: auto;
+}
+
+.contacts-bg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+                      url("../img/header_bg.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 500px;
+    position: relative;
+    width: 100%;
+}
+
+.contacts {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+}
