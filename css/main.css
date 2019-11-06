@@ -32,7 +32,10 @@
     padding-right: 55px;
 }
 
-.about-me {}
+.about-me {
+    text-align: center;
+    
+}
 
 .main-menu {
     position: fixed;
