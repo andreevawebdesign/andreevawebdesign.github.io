@@ -1,7 +1,7 @@
 @font-face {
     font-family: "serif", ;
-    src: url("../fonts/9930.ttf");
-}   
+    sSrc: url("../fonts/9930.ttf");
+}
 
 .header-bg {
     background-image: url("../img/header_bg.jpg");
@@ -32,6 +32,8 @@
     padding-right: 55px;
 }
 
+.about-me {}
+
 .main-menu {
     position: fixed;
 }
@@ -57,12 +59,14 @@
 
 .titles {
     text-align: center;
-    
+
 }
 
-.project {
-    width: 100%;
+/*
+.project-1 {
+    box-shadow: 0px 4px 4px rgba(50, 4, 4, 0.25);
 }
+*/
 
 .my-advantages {
     text-decoration: none;
@@ -74,7 +78,7 @@
 
 .contacts-bg {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
-                      url("../img/header_bg.jpg");
+        url("../img/header_bg.jpg");
     background-repeat: no-repeat, no-repeat;
     background-position: center;
     background-size: cover;
